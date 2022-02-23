@@ -36,6 +36,30 @@ app.use(express.json());
 app.listen(PORT, () => {
 	console.log(`Listening on port ${PORT}`);
 
+	console.log('desafio 002')
+
+	const nome1 :string = 'Ubuntu1 Silva';
+	const idade1 :number = 33;
+	const peso1 :number = 88.50;
+	const altura1 :number = 1.65;
+	const ehDev1 :boolean = true;
+	
+	const nome2 :string = 'Ubuntu2 Silva';
+	const idade2 :number = 33;
+	const peso2 :number = 88.50;
+	const altura2 : number = 1.65;
+	const ehDev2: boolean = true;
+
+	const nome3 :string = 'Ubuntu3 Silva';
+	const idade3 : number = 33;
+	const peso3 : number = 88.50;
+	const altura3 : number = 1.65;
+	const ehDev3 : boolean = true;
+
+	console.log(nome1, idade1, peso1, altura1, ehDev1);
+	console.log(nome2, idade2, peso2, altura2, ehDev2);
+	console.log(nome3, idade3, peso3, altura3, ehDev3);
+
 
 	// CÓDIGO PARA ATENDER OS REQUERIMENTOS
 	// R01, R02, R03, R04, R05
