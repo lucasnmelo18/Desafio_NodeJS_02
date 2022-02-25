@@ -60,12 +60,10 @@ app.listen(PORT, () => {
   const soma = idade1 + idade2 + idade3;
   console.log('A somas das idades é:', soma)
 
-  //R02
-  const nome = nome1 + nome2+ nome3;
-  console.log('Os nomes dos UBUNTUS é:', nome)
+  //R02             1      2      3
+  const alunos = [nome1, nome2, nome3]
 
-  //R03
-
+  console.log(alunos)
 
   console.log(nome1, idade1, peso1, altura1, ehDev1);
   console.log(nome2, idade2, peso2, altura2, ehDev2);
