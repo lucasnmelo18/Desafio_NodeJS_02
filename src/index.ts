@@ -38,26 +38,34 @@ app.listen(PORT, () => {
 
   console.log("desafio 002");
 
-  const nome1: string = "Ubuntu1 Silva";
+  const nome1: string = 'Ubuntu1 Silva';
   const idade1: number = 33;
   const peso1: number = 88.5;
   const altura1: number = 1.65;
   const ehDev1: boolean = true;
 
-  const nome2: string = "Ubuntu2 Silva";
+  const nome2: string = 'Ubuntu2 Silva';
   const idade2: number = 33;
   const peso2: number = 88.5;
   const altura2: number = 1.65;
   const ehDev2: boolean = true;
 
-  const nome3: string = "Ubuntu3 Silva";
+  const nome3: string = 'Ubuntu3 Silva';
   const idade3: number = 33;
   const peso3: number = 88.5;
   const altura3: number = 1.65;
   const ehDev3: boolean = true;
 
+  // R01
   const soma = idade1 + idade2 + idade3;
   console.log('A somas das idades é:', soma)
+
+  //R02
+  const nome = nome1 + nome2+ nome3;
+  console.log('Os nomes dos UBUNTUS é:', nome)
+
+  //R03
+
 
   console.log(nome1, idade1, peso1, altura1, ehDev1);
   console.log(nome2, idade2, peso2, altura2, ehDev2);
